@@ -84,13 +84,7 @@ All redirection and stats are simulated locally using dummy data.
 
 ---
 
-## 👩‍💻 Author
 
-**Likitha Putta Reddy**  
-B.Tech - Information Technology  
-SV College of Engineering, Tirupati
-
----
 
 ## 🌐 Live Demo (Optional)
 

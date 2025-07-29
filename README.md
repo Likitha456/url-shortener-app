@@ -6,31 +6,23 @@ A simple and user-friendly React-based **URL Shortener** that allows users to sh
 
 ## 🚀 Features
 
-- ✅ Add 1–5 long URLs at once
-- ✅ Optional custom shortcode for each URL
-- ✅ Enter validity (expiry time in minutes)
-- ✅ Redirect short URL to actual long URL (demo logic)
-- ✅ Simulated statistics page with clicks and locations
-- ✅ Styled cleanly with Material UI
-- ✅ Logs every action using a custom middleware logger
-
----
-
-## 📸 Screenshots
-
-| Home Page - URL Entry Form | Stats Page |
-|----------------------------|------------|
-| ![Form](./screenshots/form.png) | ![Stats](./screenshots/stats.png) |
+- ✅ Add 1–5 long URLs at once  
+- ✅ Optional custom shortcode for each URL  
+- ✅ Enter validity (expiry time in minutes)  
+- ✅ Redirect short URL to actual long URL (demo logic)  
+- ✅ Simulated statistics page with clicks and locations  
+- ✅ Styled cleanly with Material UI  
+- ✅ Logs every action using a custom middleware logger  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React JS (via Create React App)
-- Material UI (MUI)
-- React Router DOM
-- Axios (future API integration)
-- Custom Logging Middleware
+- React JS (via Create React App)  
+- Material UI (MUI)  
+- React Router DOM  
+- Axios (future API integration)  
+- Custom Logging Middleware  
 
 ---
 
@@ -55,17 +47,17 @@ npm install
 npm start
 ```
 
-Visit 👉 `http://localhost:3000` in your browser.
+Then open 👉 `http://localhost:3000` in your browser.
 
 ---
 
 ## 🧪 Example Inputs
 
-| Long URL | Validity (mins) | Custom Shortcode |
-|----------|------------------|------------------|
-| https://www.google.com | (blank) | google |
-| https://www.youtube.com | 45 | yt45 |
-| https://chat.openai.com | 60 | openai-bot |
+| Long URL                     | Validity (mins) | Custom Shortcode |
+|-----------------------------|------------------|------------------|
+| https://www.google.com       | (blank)          | google           |
+| https://www.youtube.com      | 45               | yt45             |
+| https://chat.openai.com      | 60               | openai-bot       |
 
 ---
 

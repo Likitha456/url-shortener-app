@@ -1,71 +1,111 @@
-# Getting Started with Create React App
+# 🔗 URL Shortener App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and user-friendly React-based **URL Shortener** that allows users to shorten long URLs, optionally create custom shortcodes, and view basic statistics like click data and expiry time.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Add 1–5 long URLs at once
+- ✅ Optional custom shortcode for each URL
+- ✅ Enter validity (expiry time in minutes)
+- ✅ Redirect short URL to actual long URL (demo logic)
+- ✅ Simulated statistics page with clicks and locations
+- ✅ Styled cleanly with Material UI
+- ✅ Logs every action using a custom middleware logger
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+| Home Page - URL Entry Form | Stats Page |
+|----------------------------|------------|
+| ![Form](./screenshots/form.png) | ![Stats](./screenshots/stats.png) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React JS (via Create React App)
+- Material UI (MUI)
+- React Router DOM
+- Axios (future API integration)
+- Custom Logging Middleware
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Setup Instructions
 
-### `npm run eject`
+### 1. Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/Likitha456/url-shortener-app.git
+cd url-shortener-app
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Start the App
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visit 👉 `http://localhost:3000` in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧪 Example Inputs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Long URL | Validity (mins) | Custom Shortcode |
+|----------|------------------|------------------|
+| https://www.google.com | (blank) | google |
+| https://www.youtube.com | 45 | yt45 |
+| https://chat.openai.com | 60 | openai-bot |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📂 Folder Structure
 
-### Making a Progressive Web App
+```
+src/
+├── components/
+│   ├── URLShortenerForm.js
+│   ├── URLStatsPage.js
+│   └── RedirectHandler.js
+├── middleware/
+│   └── logger.js
+├── App.js
+├── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🤖 Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project **does not use any real backend**.  
+All redirection and stats are simulated locally using dummy data.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👩‍💻 Author
 
-### `npm run build` fails to minify
+**Likitha Putta Reddy**  
+B.Tech - Information Technology  
+SV College of Engineering, Tirupati
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# URL Shortener App" 
+---
+
+## 🌐 Live Demo (Optional)
+
+_You can deploy it on Netlify or GitHub Pages later and add the link here._
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
